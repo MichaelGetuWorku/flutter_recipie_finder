@@ -1,0 +1,47 @@
+name: recipie_finder
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  cached_network_image: ^3.1.0
+  flutter_slidable: ^0.6.0
+  flutter_svg: ^0.22.0
+  shared_preferences: ^2.0.7
+  json_annotation: ^4.1.0
+  http: ^0.13.3
+  chopper: ^4.0.1
+  logging: ^1.0.1
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  build_runner: ^2.1.1
+  json_serializable: ^4.1.4
+  chopper_generator: ^4.0.1
+#s a package that generates the boilerplate code for you in the form of a part file. 
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/recipes1.json
+    - assets/recipes2.json
+    - assets/images/
